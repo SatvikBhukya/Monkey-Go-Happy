@@ -117,7 +117,7 @@ function draw(){
 }
 
 function bananas(){
-  if (frameCount%80 === 0){
+  if (frameCount%150 === 0){
     
     banana = createSprite(620,120, 50, 50 )
     banana.addAnimation("banana", bananaImage);
